@@ -6,7 +6,7 @@
 </h2>
 <div align="center">
 
-[![](https://img.shields.io/github/v/tag/maxheyn/TorghastTeams?color=41aee7&label=latest%20release&logo=Github)](https://github.com/maxheyn/TorghastTeams/releases/latest) [![](https://img.shields.io/github/last-commit/maxheyn/TorghastTeams?color=41aee7&label=latest%20commit&logo=Github)](https://github.com/maxheyn/TorghastTeams/commits/main) [![](https://img.shields.io/github/issues/maxheyn/TorghastTeams?color=41aee7&logo=Github)](https://github.com/maxheyn/TorghastTeams/issues)
+[![](https://img.shields.io/github/v/tag/maxheyn/readme-reference?color=41aee7&label=latest%20release&logo=Github)](https://github.com/maxheyn/readme-reference/releases/latest) [![](https://img.shields.io/github/last-commit/maxheyn/readme-reference?color=41aee7&label=latest%20commit&logo=Github)](https://github.com/maxheyn/readme-reference/commits/main) [![](https://img.shields.io/github/issues/maxheyn/readme-reference?color=41aee7&logo=Github)](https://github.com/maxheyn/readme-reference/issues)
 
 [Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Features](#features)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Commands](#commands)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Screenshots](#screenshots)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Planned](#planned)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Issues][issues]
 
@@ -148,7 +148,7 @@ sample text sample text sample text sample text sample text sample text sample t
 sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text 
 
 <h2 id="feedback" align="center">
-  <a href="https://github.com/maxheyn/TorghastTeams/issues">
+  <a href="https://github.com/maxheyn/readme-reference/issues">
   <img src=".github/images/SubmitFeedback.png" alt="feedback header">
   </a>
 </h2>
@@ -157,11 +157,11 @@ sample text sample text sample text sample text sample text sample text sample t
 
 Have a suggestion for some options, or want to report a bug? Open an [issue][issues]!
 
-[CurseForge](https://www.curseforge.com/wow/addons/torghastteams)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[WoWInterface](https://www.wowinterface.com/downloads/info25845-TorghastTeams.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Back to Top](#topBanner)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Authors](https://github.com/maxheyn/TorghastTeams/graphs/contributors)
+[Back to Top](#topBanner)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Authors](https://github.com/maxheyn/readme-reference/graphs/contributors)
 
 </div>
 
-[release]:https://github.com/maxheyn/TorghastTeams/releases/latest "Latest Release (external link)"
-[issues]:https://github.com/maxheyn/TorghastTeams/issues "Issues (external link)"
+[release]:https://github.com/maxheyn/readme-reference/releases/latest "Latest Release (external link)"
+[issues]:https://github.com/maxheyn/readme-reference/issues "Issues (external link)"
 
 *This repository exists to provide a loose guide or reference for creating an aesthetically pleasing and noteworthy GitHub README for your project. This is **NOT** a guide for GitHub PROFILE READMEs. Do not consider this guide as one to learn best practices, but rather as one that will get you started on the path to improving your documentation skills and making your project stand out from the crowd. Please also note that this is how I personally like to style my GitHub READMEs, and you may have other preferences - feel free to use this template and customize it to your own liking.*
