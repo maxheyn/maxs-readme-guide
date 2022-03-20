@@ -81,6 +81,8 @@ I tend to store images for the README in the `.github/images` directory, indicat
 
 To include an image/GIF in your README, you can either use the `![](.github/image.png)` syntax, or you can use the `<img>` tag. It ultimately does not matter which you use, but you should try to be consistent with your choice. 
 
+You may also like shields. These are a great way to add some extra flair and information to your README. You can use the [shields.io](https://shields.io/) website to generate a shield for your project. I have shields in this README directly below [**The Header**](#topBanner) section.
+
 <h4 id="banners">
     Banners
 </h1>
