@@ -5,29 +5,30 @@
 
 [![](https://img.shields.io/github/last-commit/maxheyn/readme-reference?color=41aee7&label=latest%20commit&logo=Github)](https://github.com/maxheyn/readme-reference/commits/main) [![](https://img.shields.io/github/issues/maxheyn/readme-reference?color=41aee7&logo=Github)](https://github.com/maxheyn/readme-reference/issues)
 
-[Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Features](#features)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Commands](#commands)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Screenshots](#screenshots)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Planned](#planned)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Issues][issues]
+[Features](#features)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Advice](#advice)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Formatting](#hacks)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Tips](#tips)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Samples](#samples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Issues][issues]
 
-This section is what I call **The Pitch**. It is centered and directly below the banner and (optional) tagline. It is intended to be used to provide a quick overview of the project and its goals, similar to an abstract or summary. This should be kept short and concise, one paragraph at the most. You should describe what your project is, name (do not describe) some key features, and provide navigation links to important sections of the README and the project.
+
+<p id="pitch">This section is what I call <b>The Pitch</b>. It is centered and directly below the banner and (optional) tagline. It is intended to be used to provide a quick overview of the project and its goals, similar to an abstract or summary. This should be kept short and concise, one paragraph at the most. You should describe what your project is, name (do not describe) some key features, and provide navigation links to important sections of the README and the project.</p>
 </div>
 
 <h2 id="features" align="center">  
   <img src=".github/images/Features.png" alt="features header">
 </h2>
 
-This is the **Features** section. It is intended to allow the reader to quickly understand the key features of your project. You should not include any code or other technical information here, mainly a very high-level overview of the feature. Do not center this section. Try to avoid complete sentences; short blurbs that you may see as section headers are best, but it may depend on your goal. Include navigation links to the sections mentioned here, even if the navigation link already exists in **The Pitch** section of the README. If you are using this as a template, feel free to delete this paragraph and edit the rest of this section.
+This is the [**Features**](#features) section. It is intended to allow the reader to quickly understand the key features of your project. You should not include any code or other technical information here, mainly a very high-level overview of the feature. Do not center this section. Try to avoid complete sentences; short blurbs that you may see as section headers are best, but it may depend on your goal. Include navigation links to the sections mentioned here, even if the navigation link already exists in [The Pitch](#pitch) section of the README. If you are using this as a template, feel free to delete this paragraph and edit the rest of this section.
 
 This README template/guide has many features/sections, some of the key ones to highlight are...
 
-- Generic (and biased) advice on how you can use your README to highlight your project
-    - Why is this important?
-    - How to define sections
-    - Images as a visual aid
-- Formatting "hacks" you can use to make your README look better
-    - GitHub Flavored Markdown
-    - Navigation bar
-    - Code blocks
-- README editing made simpler
-- Sample READMEs which you can use as a starting point or reference
+- Generic (and biased) [advice](#advice) on how you can use your README to highlight your project
+    - [Why is this important?](#why)
+    - [How to define sections](#sectioning)
+    - [Images as a visual aid](#visuals)
+- [Formatting "hacks"](#hacks) you can use to make your README look better
+    - [GitHub Flavored Markdown](#gfm)
+    - [Navigation](#navigation)
+    - [Code blocks](#cblocks)
+- [Some helpful tips](#tips)
+- [Sample READMEs](#samples) which you can use as a starting point or reference
 
 You can add a small blurb here if you would like. Typically I include a hyperlink to an external download here or to my latest GitHub release. You can also just leave this blurb blank and continue on to the next section.
 
@@ -35,7 +36,7 @@ You can add a small blurb here if you would like. Typically I include a hyperlin
   <img src=".github/images/Advice.png" alt="advice header">
 </h2>
 
-This is our first features subsection. This is where you will go into detail for all of the features you are highlighting in the first bullet point of the **Features** section. I tend to make a banner for each subsection, and then use typical html headers to describe the features in further detail. Using too many banners to separate sections can cause visual clutter.
+This is our first features subsection. This is where you will go into detail for all of the features you are highlighting in the first bullet point of the [**Features**](#features) section. I tend to make a [banner](#banners) for each subsection, and then use typical html headers to describe the features in further detail. Using too many banners to separate sections can cause visual clutter.
 
 <h2 id="why">
     Why is this important?
@@ -61,12 +62,12 @@ If your project is intended to be contributed to by others, you will also want t
 Your README needs sections, so how do you decide what sections to include, and what do you include in each section? Luckily, it's pretty simple if you already set up your **Features** section from above. Take each top level bullet point and use it as a section header, and then use the child bullet points as the section content.
 
 There are a few sections that I always try to include, regardless of the type of project. These are:
-- **The Header**
-- **The Pitch**
-- **Features**
-- **Feedback**
+- [**The Header**](#topBanner)
+- [**The Pitch**](#pitch)
+- [**Features**](#features)
+- [**Feedback**](#feedback)
 
-I will not describe them here, as they are already described in their respective sections, aside from **The Header**. **The Header** is the main banner of your project and should be at the very top of your README. It replaces the default #project-title that is included in the default README that GitHub generates for your project, if you decide to generate one.
+I will not describe them here, as they are already described in their respective sections, aside from **The Header**. **The Header** is the [main banner](#banners) of your project and should be at the very top of your README. It replaces the default #project-title that is included in the default README that GitHub generates for your project, if you decide to generate one.
 
 I tend to create section header images for top level bullet points from **Features**, and then use HTML H2 headings for the child bullet points.
 
@@ -128,13 +129,13 @@ Multiline Code Blocks
 
 All of these things are supported by GitHub Flavored Markdown, and much more. This README will not give you a tutorial on how to use them all, but hopefully it has made you aware of some features available to you to improve your formatting. Please read the [GitHub Flavored Markdown documentation](https://help.github.com/articles/github-flavored-markdown/) for more information. There is also a popular [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) that I highly recommend, as it makes it easy to find the right formatting for your README.
 
-<h2 id="sectioning">
+<h2 id="navigation">
     Navigation Links
 </h2>
 
 Your README should be easy to navigate. We already try to make this clear from a visual perspective with our headers and banners, but it should also be easy to navigate by using navigation links at the top of the README and embedded within your sections. There are many ways to do this, but the way I do it is with html tags that have an id attribute.
 
-Each section header should be wrapped in a `<h2>` tag (or whatever appropriate tag) with an id attribute, so that we can link to it from other sections. For example, the section header for this section looks like this:
+Each section header should be wrapped in a `<h#>` tag (or whatever appropriate tag) with an id attribute, so that we can link to it from other sections. For example, the section header for this section looks like this:
 
 ```html
 <h2 id="sectioning">
@@ -144,11 +145,9 @@ Each section header should be wrapped in a `<h2>` tag (or whatever appropriate t
 This allows you to link to this section by using the id attribute, like this:
 `[Defining Sections](#sectioning)` → [Defining Sections](#sectioning)
 
-This does not have to just be on section headers, but you can also use a `<nav id="ID">` tag to link to a section inline.
-
 Similar to visual clutter, try not to use too many navigation links. If you have a lot of sections, you may want to consider using a table of contents instead. However, do not be afraid to use navigation links if you have a lot of sections, as they are a great way to navigate your README. It is a matter of taste and something you may want to have other people review for a second opinion.
 
-<h2 id="sectioning">
+<h2 id="cblocks">
     Code Blocks
 </h2>
 
