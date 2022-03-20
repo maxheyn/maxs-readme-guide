@@ -85,7 +85,7 @@ You may also like shields. These are a great way to add some extra flair and inf
 
 <h4 id="banners">
     Banners
-</h1>
+</h4>
 
 Banners are more of a creative expression than anything, but I try to follow a few guidelines when making my banners.
 
