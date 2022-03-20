@@ -1,16 +1,13 @@
 <h1 id="topBanner"align="center">
   <img src=".github/images/GitHubREADMEBanner.png" alt="GitHub README banner"/>
 </h1>
-<h2 align="center">
-  <img src=".github/images/GitHubREADMETagline.png" alt="GitHub README tagline">
-</h2>
 <div align="center">
 
-[![](https://img.shields.io/github/v/tag/maxheyn/readme-reference?color=41aee7&label=latest%20release&logo=Github)](https://github.com/maxheyn/readme-reference/releases/latest) [![](https://img.shields.io/github/last-commit/maxheyn/readme-reference?color=41aee7&label=latest%20commit&logo=Github)](https://github.com/maxheyn/readme-reference/commits/main) [![](https://img.shields.io/github/issues/maxheyn/readme-reference?color=41aee7&logo=Github)](https://github.com/maxheyn/readme-reference/issues)
+[![](https://img.shields.io/github/last-commit/maxheyn/readme-reference?color=41aee7&label=latest%20commit&logo=Github)](https://github.com/maxheyn/readme-reference/commits/main) [![](https://img.shields.io/github/issues/maxheyn/readme-reference?color=41aee7&logo=Github)](https://github.com/maxheyn/readme-reference/issues)
 
 [Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Features](#features)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Commands](#commands)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Screenshots](#screenshots)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Planned](#planned)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Issues][issues]
 
-This section is what I call **The Pitch**. It is centered and directly below the banner and tagline. It is intended to be used to provide a quick overview of the project and its goals, similar to an abstract or summary. This should be kept short and concise, one paragraph at the most. You should describe what your project is, name (do not describe) some key features, and provide navigation links to important sections of the README and the project.
+This section is what I call **The Pitch**. It is centered and directly below the banner and (optional) tagline. It is intended to be used to provide a quick overview of the project and its goals, similar to an abstract or summary. This should be kept short and concise, one paragraph at the most. You should describe what your project is, name (do not describe) some key features, and provide navigation links to important sections of the README and the project.
 </div>
 
 <h2 id="features" align="center">  
@@ -52,9 +49,9 @@ There are multiple reasons why you may want to create a thorough GitHub README. 
 2. You want to make sure that your project is easy to contribute to, if having contributors is important to you.
 3. You want to grab the attention of anyone who is browsing your GitHub and leave them wanting to know more about your project.
 
-The first and third reasons are fairly connected but not necesarilly the same thing. You can create a well documented README that is not necesarilly attention grabbing. Our goal here is to make sure that readers can easily find important technical information about your project, yet also provide a pleasant reading experience for someone who is just browsing to learn more about your projects (*like a future Employer, wink wink*). You want your README to **STAND OUT** from the rest of the crowd to set yourself apart and make a good impression. When I see a README that is well made, I also assume (whether it is correct or not), that the code itself is also well made (or at least has a good chance of being so). That is the impression that you want to to give off after someone views your README.
+The first and third reasons are fairly connected but not necessarily  the same thing. You can create a well documented README that is not necessarily attention grabbing. Our goal here is to make sure that readers can easily find important technical information about your project, yet also provide a pleasant reading experience for someone who is just browsing to learn more about your projects (*like a future Employer, wink wink*). You want your README to **STAND OUT** from the rest of the crowd to set yourself apart and make a good impression. When I see a README that is well made, I also assume (whether it is correct or not), that the code itself is also well made (or at least has a good chance of being so). That is the impression that you want to give off after someone views your README.
 
-If your project is intended to be contributed to by others, you will also want to have a pleasant README as a way of advertising that your project is worth being contributed to. After all, would you rather contribute to the project that looks professional and is well-documented, or contribute to the project has little to no information about it? Your preferences may vary, but I would admit that the better a README looks to me, the more willing I am to consider contributing to your project.
+If your project is intended to be contributed to by others, you will also want to have a pleasant README as a way of advertising that your project is worth being contributed to. After all, would you rather contribute to a project that looks professional and is well-documented, or contribute to a project has little to no information about it? Your preferences may vary, but I would admit that the better a README looks to me, the more willing I am to consider contributing to your project.
 
 
 <h2 id="sectioning">
@@ -79,7 +76,7 @@ I tend to create section header images for top level bullet points from **Featur
 
 Visuals are an AMAZING way to make your README stand out. I tend to use images as section headers, and try to use images as a visual aid to the section content whenever possible. However, it is also possible to overdo this and use too many images, which ends up as visual clutter. Feedback is crucial and you should always ask someone to read over your README and get their thoughts on it, especially when it comes to visual clutter.
 
-I tend to store images for the README in the `.github/images` directory, indicating that these images are specifically for the presentation of the README and not necesarilly crucial to the project itself.
+I tend to store images for the README in the `.github/images` directory, indicating that these images are specifically for the presentation of the README and not necessarily crucial to the project itself.
 
 To include an image/GIF in your README, you can either use the `![](.github/image.png)` syntax, or you can use the `<img>` tag. It ultimately does not matter which you use, but you should try to be consistent with your choice. 
 
@@ -147,7 +144,7 @@ Each section header should be wrapped in a `<h2>` tag (or whatever appropriate t
 This allows you to link to this section by using the id attribute, like this:
 `[Defining Sections](#sectioning)` → [Defining Sections](#sectioning)
 
-This does not have to just be on section headers, but you can also use a `<nav id="ID">` tag to line to a section inline.
+This does not have to just be on section headers, but you can also use a `<nav id="ID">` tag to link to a section inline.
 
 Similar to visual clutter, try not to use too many navigation links. If you have a lot of sections, you may want to consider using a table of contents instead. However, do not be afraid to use navigation links if you have a lot of sections, as they are a great way to navigate your README. It is a matter of taste and something you may want to have other people review for a second opinion.
 
@@ -188,7 +185,7 @@ Another example:
 You can also use `inline code blocks` to make certain sections of your README stand out. You can use it for single lines of code, or to highlight a specific word or phrase when you do not want to use other formatting.
 
 <h2 id="tips" align="center">  
-  <img src=".github/images/Advice.png" alt="tips header">
+  <img src=".github/images/Tips.png" alt="tips header">
 </h2>
 
 Some tips I have found useful when creating READMEs:
@@ -228,7 +225,7 @@ Here are some sample READMEs that I have found that stood out to me somehow. The
 
 <h2 id="feedback" align="center">
   <a href="https://github.com/maxheyn/readme-reference/issues">
-  <img src=".github/images/SubmitFeedback.png" alt="feedback header">
+  <img src=".github/images/Feedback.png" alt="feedback header">
   </a>
 </h2>
 
@@ -246,4 +243,5 @@ My disclaimer...
 
 [release]:https://github.com/maxheyn/readme-reference/releases/latest "Latest Release (external link)"
 [issues]:https://github.com/maxheyn/readme-reference/issues "Issues (external link)"
+[discussions]:https://github.com/maxheyn/readme-reference/discussions "Discussions (external link)"
 
